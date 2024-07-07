@@ -96,7 +96,6 @@ p{
 }
 
 #main p {
-    box-sizing: border-box;
     color: var(--secondary-color);
     position: absolute;
     top: 170px;
@@ -145,7 +144,6 @@ footer nav a {
 }
 footer {
     background-color: var(--primary-color);
-    color:#000;
     padding: 25px;
     display: flex;
     justify-content: space-around;
