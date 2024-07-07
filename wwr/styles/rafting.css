@@ -91,7 +91,7 @@ p{
     color: var(--secondary-color);
     position: absolute;
     top: 90px;
-    left: 650px;
+    left: 800px;
     display:inline-block;
 }
 
@@ -99,9 +99,11 @@ p{
     color: var(--secondary-color);
     position: absolute;
     top: 170px;
-    left: 10px;
+    left: 80px;
     display:inline-block;
-    background-color: rgba(160, 210, 232, 0.642);}
+    text-decoration: none;
+    width: 90%;
+}
 
 h1{
     position: absolute;
