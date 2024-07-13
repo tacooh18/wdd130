@@ -163,3 +163,61 @@ footer a:hover {
     color:#ADE8FF;
     padding-top: 10px;
 }
+
+#second header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+#second h2 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: var(--tertiary-color);
+    text-align: center;
+}
+
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+label, input, button, select, textarea {
+    font-family:var(--paragraph-font)
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+    margin: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
