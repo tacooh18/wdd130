@@ -176,6 +176,9 @@ footer a:hover {
     text-align: center;
 }
 
+#second p {
+    color: var(--tertiary-color);
+}
 
 form {
     width: 650px;
@@ -187,17 +190,17 @@ form {
     display: grid;
 }
 
-label, input, button, select, textarea {
+label, input, button, select, textarea, #second p {
     font-family:var(--paragraph-font)
 }
 
-label {
+label, #second p {
     text-align: center;
     padding-right: 1rem;
     margin: 1rem;
 }
 
-input, select, textarea {
+input, select, textarea, #second p {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
